@@ -2,17 +2,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
 }
 
+.text-contact-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 50px;
+}
 
 .profile-pic {
-    width: 300px;
-    margin: 50px;    
+    width: 250px;   
 }
 
 .blurb {
     text-align: left;
-    max-width: 30%;
+    max-width: 70%;
 }
 
 .intro {
@@ -25,7 +33,6 @@
     font-family: 'Lora', serif;
 }
 
-.contact_buttons {
-    display: flex;
-    justify-content: center;
+.contact-buttons img {
+    margin-left: 1rem;
 }
