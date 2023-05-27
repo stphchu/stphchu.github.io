@@ -36,3 +36,7 @@
 .contact-buttons img {
     margin-left: 1rem;
 }
+
+.contact-buttons a {
+    text-decoration: none;
+}
