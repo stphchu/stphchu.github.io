@@ -40,3 +40,7 @@
 .contact-buttons a {
     text-decoration: none;
 }
+
+.resized-img {
+    align-self: center;
+}
